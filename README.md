@@ -17,3 +17,13 @@ This was the third language I solve this in, so I decided to go with a slightly
 different approach than the others. Instead of building a 2D map similar to the input,
 I decided to make a collection of parts and gears, and run collision detection on them.
 I think this would make the solution easier to expand with more functions in the future.
+
+### Day 4: Scratchcards
+This one I did Rust first, and I tried to do it as quick as possible.
+The problem was simple enough that I skipped tests completely
+(except some temporary tests I later deleted). I instead added day4_test.txt
+as an alternative input file, and ran against that to figure out if I got it right.
+
+I did some slight cleanup/refactoring after the task was done, but not too much.
+The parse_cards function is pretty much as it was and I definitely think it
+could be easier to read.

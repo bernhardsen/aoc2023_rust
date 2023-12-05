@@ -27,3 +27,8 @@ as an alternative input file, and ran against that to figure out if I got it rig
 I did some slight cleanup/refactoring after the task was done, but not too much.
 The parse_cards function is pretty much as it was and I definitely think it
 could be easier to read.
+
+### Day 5: If You Give A Seed A Fertilizer
+For me the most difficult part of this one was all the maps inside folds inside maps inside whatever.
+Keeping track of what is nested where was so much harder than the first implementation,
+that I did in C#.

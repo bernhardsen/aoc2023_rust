@@ -5,7 +5,7 @@ pub(crate) fn scratch_cards() {
     let input = read_to_string("input/day4.txt").unwrap();
     let cards = parse_cards(&input);
 
-    let points: usize = cards.iter().map(|&winners| card_score(winners)).sum();
+    let points: usize = cards.iter().map(card_score).sum();
     println!("-- Part 1: --");
     println!("The scratch cards are worth {points} points in total.");
 
@@ -20,7 +20,7 @@ pub(crate) fn scratch_cards() {
 
     let total_cards: usize = cards_in_hand.iter().sum();
     println!("\n-- Part 2: --");
-    println!("We get {total_cards} number of cards in total.");
+    println!("We get {total_cards} cards in total.");
 }
 
 fn parse_cards(input: &str) -> Vec<usize> {
@@ -41,7 +41,7 @@ fn parse_cards(input: &str) -> Vec<usize> {
     }).collect()
 }
 
-fn card_score(n: usize) -> usize {
+fn card_score(n: &usize) -> usize {
     match n {
         0 => 0,
         _ => 1 << (n - 1)

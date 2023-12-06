@@ -32,3 +32,10 @@ could be easier to read.
 For me the most difficult part of this one was all the maps inside folds inside maps inside whatever.
 Keeping track of what is nested where was so much harder than the first implementation,
 that I did in C#.
+
+### Day 6: Wait For It
+This one was kinda fun. Used some algebra to make it super fast,
+because I expected part 2 to be way harder than it was.
+Only problem I had was that initially I hard coded the inputs, since it was so short.
+I had made a typo, and was getting the wrong answer.
+Other than that, this task was very easy. 

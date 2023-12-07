@@ -4,6 +4,7 @@ mod day3;
 mod day4;
 mod day5;
 mod day6;
+mod day7;
 
 fn main() {
     println!("Advent of Code 2023!");
@@ -14,6 +15,7 @@ fn main() {
         "4" => day4::scratch_cards(),
         "5" => day5::seed_locator(),
         "6" => day6::wait_for_it(),
+        "7" => day7::camel_cards(),
         _ => println!("Day not implemented yet!"),
     };
 }

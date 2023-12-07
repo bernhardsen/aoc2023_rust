@@ -38,4 +38,10 @@ This one was kinda fun. Used some algebra to make it super fast,
 because I expected part 2 to be way harder than it was.
 Only problem I had was that initially I hard coded the inputs, since it was so short.
 I had made a typo, and was getting the wrong answer.
-Other than that, this task was very easy. 
+Other than that, this task was very easy.
+
+### Day 7: Camel Cards
+I liked this one. I expected part 2 to be something like adding straight as a possible hand,
+but I think the joker one was easier. I originally implemented scoring the hand value in
+a different way, but switched to counting duplicates when I saw part 2.
+

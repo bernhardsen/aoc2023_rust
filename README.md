@@ -45,3 +45,13 @@ I liked this one. I expected part 2 to be something like adding straight as a po
 but I think the joker one was easier. I originally implemented scoring the hand value in
 a different way, but switched to counting duplicates when I saw part 2.
 
+### Day 8: Haunted Wasteland
+It hurts my brain any time we have to build graphs and stuff in Rust.
+I did brute force part 2, and I know there is a way to do it without.
+Something something about least common multiplier, but I couldn't figure out
+how to offset those by the time it takes to get to the first Z node.
+Whatever, we're done with this one...
+
+### Day 9: Mirage Maintenance
+I liked this one. It was one of the easier problems recently.
+It comes together really nicely when you just break it down into steps.

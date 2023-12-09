@@ -105,14 +105,14 @@ mod tests {
 
     #[test]
     fn test_score_hand() {
-        assert_eq!(1, score_hand(&"27A83".chars().collect()));
-        assert_eq!(2, score_hand(&"AATKJ".chars().collect()));
-        assert_eq!(4, score_hand(&"Q6T6T".chars().collect()));
-        assert_eq!(8, score_hand(&"6TT8T".chars().collect()));
-        assert_eq!(8, score_hand(&"99K89".chars().collect()));
-        assert_eq!(16, score_hand(&"K9K99".chars().collect()));
-        assert_eq!(32, score_hand(&"777Q7".chars().collect()));
-        assert_eq!(64, score_hand(&"44444".chars().collect()));
+        assert_eq!(1, score_hand(&"27A83".chars().map(|c| c as u8).collect()));
+        assert_eq!(2, score_hand(&"AATKJ".chars().map(|c| c as u8).collect()));
+        assert_eq!(4, score_hand(&"Q6T6T".chars().map(|c| c as u8).collect()));
+        assert_eq!(8, score_hand(&"6TT8T".chars().map(|c| c as u8).collect()));
+        assert_eq!(8, score_hand(&"99K89".chars().map(|c| c as u8).collect()));
+        assert_eq!(16, score_hand(&"K9K99".chars().map(|c| c as u8).collect()));
+        assert_eq!(32, score_hand(&"777Q7".chars().map(|c| c as u8).collect()));
+        assert_eq!(64, score_hand(&"44444".chars().map(|c| c as u8).collect()));
     }
 
     #[test]

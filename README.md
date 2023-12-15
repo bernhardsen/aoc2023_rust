@@ -55,3 +55,8 @@ Whatever, we're done with this one...
 ### Day 9: Mirage Maintenance
 I liked this one. It was one of the easier problems recently.
 It comes together really nicely when you just break it down into steps.
+
+### Day 10: Pipe Maze
+Kinda meh problem and implementation. I don't link how much code I ended up with.
+I think the worst part is the "Figure out what shape the start square is".
+That could probably be written very differently.

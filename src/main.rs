@@ -7,6 +7,7 @@ mod day6;
 mod day7;
 mod day8;
 mod day9;
+mod day10;
 
 fn main() {
     println!("Advent of Code 2023!");
@@ -20,6 +21,7 @@ fn main() {
         "7" => day7::camel_cards(),
         "8" => day8::wasteland(),
         "9" => day9::mirage(),
+        "10" => day10::pipe_layer(),
         _ => println!("Day not implemented yet!"),
     };
 }

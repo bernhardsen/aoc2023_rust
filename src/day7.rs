@@ -91,7 +91,7 @@ impl CamelHand {
             }
         }).collect();
         let score = score_hand(&cards.clone());
-        CamelHand{
+        CamelHand {
             cards,
             value,
             score

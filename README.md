@@ -48,7 +48,7 @@ a different way, but switched to counting duplicates when I saw part 2.
 ### Day 8: Haunted Wasteland
 It hurts my brain any time we have to build graphs and stuff in Rust.
 I did brute force part 2, and I know there is a way to do it without.
-Something something about least common multiplier, but I couldn't figure out
+Something, something about the least common multiplier, but I couldn't figure out
 how to offset those by the time it takes to get to the first Z node.
 Whatever, we're done with this one...
 
@@ -60,3 +60,22 @@ It comes together really nicely when you just break it down into steps.
 Kinda meh problem and implementation. I don't link how much code I ended up with.
 I think the worst part is the "Figure out what shape the start square is".
 That could probably be written very differently.
+
+### Day 11: Cosmic Expansion
+Fun problem. Not that difficult. It was all about counting the number of expansions we crossed,
+instead of materializing them on the map, and actually calculating distances.
+
+### Day 12: The one we skipped
+I tried this one in C#, but eventually gave up.
+Part 1 was not that bad, but part 2 too difficult. I might return to this one later.
+
+### Day 13: Point of Incidence
+Fun one. Important thing here for part 2 was to make sure to ignore the original reflection,
+because changing/fixing the smudge, might not invalidate the original one. It worked
+as long as the new reflection was earlier in the search than the original. It was easy
+enough to fix once I realized what was going on.
+
+### Day 16: The Floor Will Be Lava
+One of those "Find the repeating pattern"-type problems. I confused myself a bit reversing
+the vector of results. I should have just left it in the original order, but I wanted to
+put it in the same order I was thinking in.

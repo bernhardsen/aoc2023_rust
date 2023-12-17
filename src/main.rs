@@ -8,6 +8,10 @@ mod day7;
 mod day8;
 mod day9;
 mod day10;
+mod day11;
+mod day16;
+mod day13;
+mod utils;
 
 fn main() {
     println!("Advent of Code 2023!");
@@ -22,6 +26,9 @@ fn main() {
         "8" => day8::wasteland(),
         "9" => day9::mirage(),
         "10" => day10::pipe_layer(),
+        "11" => day11::cosmic(),
+        "13" => day13::reflections(),
+        "16" => day16::lava_floor(),
         _ => println!("Day not implemented yet!"),
     };
 }
